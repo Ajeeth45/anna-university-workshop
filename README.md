@@ -18,3 +18,14 @@ git push origin master ->to reflect in remote place i.e.git
 
 TO DELETE BRANCH:
  git branch -d mybranch
+ git push origin --delete mybranch
+ 
+ TO GET FILE FROM STAGING AREA TO LOCAL AREA:
+ git reset HEAD file.txt
+ 
+ TO REMOVE THE CHANGES MADE PREVIOUSLY:
+ git checkout -- file.txt ->can be done only in local
+ 
+ TO SWITCH FROM BRACH TO MASTER WHILE WORKING IN BRANCH:
+ git stash ->to make the file into stash..Now you can checkout
+ git stash pop ->to regain the work done.
